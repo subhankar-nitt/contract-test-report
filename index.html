@@ -189,7 +189,7 @@
                         <td>1</td>
                         <td>1</td>
                         
-                        <td>3.17307842</td>
+                        <td>0.553920018</td>
                     </tr>
                     <tbody>
         
@@ -209,7 +209,7 @@
             <td>0</td>
             <td>0</td>
             <td>0</td>
-            <td>0.00018551</td>
+            <td>0.000192035</td>
         </tr>
         <tr> -->
             
@@ -220,7 +220,7 @@
             <td>1</td>
             <td>0</td>
             <td>0</td>
-            <td>3.17289291</td>
+            <td>0.553727983</td>
         </tr>
         <tr> -->
             
@@ -246,6 +246,27 @@
                             <tr class="message-cell">
                                 
                                 <td>
+                                    ❌      user_test::contract_provider
+                                    <span class="error-message">
+                                        <pre>"200"
+thread 'user_test::contract_provider' panicked at tests/user_test/mod.rs:230:21:
+Body Error Some([BodyMismatch { path: "$", expected: Some(b"{\"comment\":\"user added \",\"id\":1,\"user_name\":\"subhankar\"}"), actual: Some(b"{\"comment\":\"unit added \",\"id\":1,\"user_name\":\"subhankar\"}"), mismatch: "Expected body '{\"comment\":\"user added \",\"id\":1,\"user_name\":\"subhankar\"}' to match '{\"comment\":\"unit added \",\"id\":1,\"user_name\":\"subhankar\"}' using equality but did not match" }])
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace</pre>
+                                    </span>
+                                </td>
+                                <td>Failed</td>
+                                <td>
+                                    assertion failed
+                                    
+                                </td>
+                                <td>0.222948327</td>
+                                
+                            </tr>
+                            
+                            
+                            <tr class="message-cell">
+                                
+                                <td>
                                     ✅      user_test::user_tests::contract_consumer
                                     <span class="error-message">
                                         <pre></pre>
@@ -256,28 +277,7 @@
                                     
                                     
                                 </td>
-                                <td>0.565919214</td>
-                                
-                            </tr>
-                            
-                            
-                            <tr class="message-cell">
-                                
-                                <td>
-                                    ❌      user_test::contract_provider
-                                    <span class="error-message">
-                                        <pre>"200"
-thread 'user_test::contract_provider' panicked at tests/user_test/mod.rs:230:21:
-Body Error Some([BodyMismatch { path: "$", expected: Some(b"null"), actual: Some(b"{\"comment\":\"unit added \",\"id\":1,\"user_name\":\"subhankar\"}"), mismatch: "Expected body 'null' to match '{\"comment\":\"unit added \",\"id\":1,\"user_name\":\"subhankar\"}' using equality but did not match" }])
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace</pre>
-                                    </span>
-                                </td>
-                                <td>Failed</td>
-                                <td>
-                                    assertion failed
-                                    
-                                </td>
-                                <td>3.171800741</td>
+                                <td>0.55245907</td>
                                 
                             </tr>
                             
