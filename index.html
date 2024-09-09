@@ -189,7 +189,7 @@
                         <td>1</td>
                         <td>1</td>
                         
-                        <td>0.110929768</td>
+                        <td>0.7461384120000001</td>
                     </tr>
                     <tbody>
         
@@ -204,12 +204,23 @@
                 
         
         <!-- <tr>
+            <td>test</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0.000178623</td>
+        </tr>
+        <tr> -->
+            
+        
+        <!-- <tr>
             <td>user_test</td>
             <td>2</td>
             <td>1</td>
             <td>0</td>
             <td>0</td>
-            <td>0.110867611</td>
+            <td>0.745959789</td>
         </tr>
         <tr> -->
             
@@ -245,7 +256,7 @@
                                     
                                     
                                 </td>
-                                <td>0.070858906</td>
+                                <td>0.54620002</td>
                                 
                             </tr>
                             
@@ -253,14 +264,11 @@
                             <tr class="message-cell">
                                 
                                 <td>
-                                    ❌      user_test::user_tests::contract_provider
+                                    ❌      user_test::contract_provider
                                     <span class="error-message">
-                                        <pre>thread 'user_test::user_tests::contract_provider' panicked at tests/idtoken/mod.rs:12:9:
-error   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: metadata
-
+                                        <pre>"200"
+thread 'user_test::contract_provider' panicked at tests/user_test/mod.rs:230:21:
+Body Error Some([BodyMismatch { path: "$", expected: Some(b"null"), actual: Some(b"{\"comment\":\"unit added \",\"id\":1,\"user_name\":\"subhankar\"}"), mismatch: "Expected body 'null' to match '{\"comment\":\"unit added \",\"id\":1,\"user_name\":\"subhankar\"}' using equality but did not match" }])
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace</pre>
                                     </span>
                                 </td>
@@ -269,7 +277,7 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace</p
                                     assertion failed
                                     
                                 </td>
-                                <td>0.110250294</td>
+                                <td>0.744834363</td>
                                 
                             </tr>
                             
@@ -280,17 +288,6 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace</p
             </td>
         </tr>
         
-        
-        <!-- <tr>
-            <td>test</td>
-            <td>0</td>
-            <td>1</td>
-            <td>0</td>
-            <td>0</td>
-            <td>6.2157e-05</td>
-        </tr>
-        <tr> -->
-            
                 
     </div>
     <script>
