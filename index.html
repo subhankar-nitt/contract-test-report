@@ -151,7 +151,7 @@
                         data:{
                             labels: ['Passed','Failed'],
                             datasets:[{
-                                data: [0,1],
+                                data: [1,0],
                                 backgroundColor: ['#4CAF50','#F44336'],
                                 borderWidth:1
                             }]
@@ -186,10 +186,10 @@
                     <tr>
                         
                         <td>1</td>
-                        <td>0</td>
                         <td>1</td>
+                        <td>0</td>
                         
-                        <td>4.2946833589999995</td>
+                        <td>0.085268714</td>
                     </tr>
                     <tbody>
         
@@ -209,7 +209,7 @@
             <td>0</td>
             <td>0</td>
             <td>0</td>
-            <td>0.000187926</td>
+            <td>0.000200166</td>
         </tr>
         <tr> -->
             
@@ -217,10 +217,10 @@
         <!-- <tr>
             <td>test</td>
             <td>1</td>
-            <td>1</td>
             <td>0</td>
             <td>0</td>
-            <td>4.294495433</td>
+            <td>0</td>
+            <td>0.085068548</td>
         </tr>
         <tr> -->
             
@@ -246,23 +246,17 @@
                             <tr class="message-cell">
                                 
                                 <td>
-                                    ❌      user_test
+                                    ✅      user_test
                                     <span class="error-message">
-                                        <pre>"consumer"
-Object { self_link: "https://www.googleapis.com/storage/v1/b/contract-testing-report/o/pacts%2Fusers%2Fconsumer-producer.json", media_link: "https://storage.googleapis.com/download/storage/v1/b/contract-testing-report/o/pacts%2Fusers%2Fconsumer-producer.json?generation=1725967484845095&alt=media", content_encoding: None, content_disposition: None, cache_control: None, acl: None, content_language: None, metageneration: 1, time_deleted: None, content_type: Some("application/octet-stream"), size: 1257, time_created: Some(2024-09-10 11:24:44.922 +00:00:00), crc32c: Some("1SVw8w=="), md5_hash: Some("q9ajjweZOtm0YV0yMWrDjw=="), etag: "CKf4z/ahuIgDEAE=", updated: Some(2024-09-10 11:24:44.922 +00:00:00), storage_class: Some("STANDARD"), kms_key_name: None, time_storage_class_updated: Some(2024-09-10 11:24:44.922 +00:00:00), temporary_hold: None, retention_expiration_time: None, metadata: None, event_based_hold: None, name: "pacts/users/consumer-producer.json", id: "contract-testing-report/pacts/users/consumer-producer.json/1725967484845095", bucket: "contract-testing-report", generation: 1725967484845095, owner: None, customer_encryption: None, custom_time: None }
-Ok(())
-"200"
-thread 'user_test' panicked at tests/user_test/mod.rs:348:25:
-header value "Content-Type" mismatch [HeaderMismatch { key: "Content-Type", expected: "\"application/json\"", actual: "application/json", mismatch: "Mismatch with header 'Content-Type': Expected header 'Content-Type' to have value '\"application/json\"' but was 'application/json'" }]
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace</pre>
+                                        <pre></pre>
                                     </span>
                                 </td>
-                                <td class ="status">Failed</td>
+                                <td class ="status">Passed</td>
                                 <td>
-                                    assertion failed
+                                    
                                     
                                 </td>
-                                <td>4.29352535</td>
+                                <td>0.084411773</td>
                                 
                             </tr>
                             
