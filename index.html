@@ -151,7 +151,7 @@
                         data:{
                             labels: ['Passed','Failed'],
                             datasets:[{
-                                data: [1,1],
+                                data: [0,1],
                                 backgroundColor: ['#4CAF50','#F44336'],
                                 borderWidth:1
                             }]
@@ -185,11 +185,11 @@
                     </thead>
                     <tr>
                         
-                        <td>2</td>
                         <td>1</td>
+                        <td>0</td>
                         <td>1</td>
                         
-                        <td>0.084978041</td>
+                        <td>0.243513972</td>
                     </tr>
                     <tbody>
         
@@ -209,18 +209,18 @@
             <td>0</td>
             <td>0</td>
             <td>0</td>
-            <td>0.000196578</td>
+            <td>0.000180856</td>
         </tr>
         <tr> -->
             
         
         <!-- <tr>
-            <td>user_test</td>
-            <td>2</td>
+            <td>test</td>
+            <td>1</td>
             <td>1</td>
             <td>0</td>
             <td>0</td>
-            <td>0.084781463</td>
+            <td>0.243333116</td>
         </tr>
         <tr> -->
             
@@ -246,9 +246,14 @@
                             <tr class="message-cell">
                                 
                                 <td>
-                                    ❌      user_test::user_tests::contract_provider
+                                    ❌      user_test
                                     <span class="error-message">
-                                        <pre>Error: Os { code: 2, kind: NotFound, message: "No such file or directory" }</pre>
+                                        <pre>String("{\n            \"id\": 1,\n            \"user_name\": \"subhankar\",\n            \"comment\": \"user added \"\n            }")
+Err(Os { code: 2, kind: NotFound, message: "No such file or directory" })
+"200"
+thread 'user_test' panicked at tests/user_test/mod.rs:266:21:
+Body Error Some([BodyMismatch { path: "$", expected: Some(b"{\"comment\":\"user added \",\"id\":1,\"user_name\":\"biswas\"}"), actual: Some(b"{\"comment\":\"user added \",\"id\":1,\"user_name\":\"subhankar\"}"), mismatch: "Expected body '{\"comment\":\"user added \",\"id\":1,\"user_name\":\"biswas\"}' to match '{\"comment\":\"user added \",\"id\":1,\"user_name\":\"subhankar\"}' using equality but did not match" }])
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace</pre>
                                     </span>
                                 </td>
                                 <td class ="status">Failed</td>
@@ -256,25 +261,7 @@
                                     assertion failed
                                     
                                 </td>
-                                <td>0.000527542</td>
-                                
-                            </tr>
-                            
-                            
-                            <tr class="message-cell">
-                                
-                                <td>
-                                    ✅      user_test::user_tests::contract_consumer
-                                    <span class="error-message">
-                                        <pre></pre>
-                                    </span>
-                                </td>
-                                <td class ="status">Passed</td>
-                                <td>
-                                    
-                                    
-                                </td>
-                                <td>0.083623294</td>
+                                <td>0.242351781</td>
                                 
                             </tr>
                             
