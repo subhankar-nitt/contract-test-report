@@ -151,7 +151,7 @@
                         data:{
                             labels: ['Passed','Failed'],
                             datasets:[{
-                                data: [0,1],
+                                data: [1,0],
                                 backgroundColor: ['#4CAF50','#F44336'],
                                 borderWidth:1
                             }]
@@ -186,10 +186,10 @@
                     <tr>
                         
                         <td>1</td>
-                        <td>0</td>
                         <td>1</td>
+                        <td>0</td>
                         
-                        <td>0.243513972</td>
+                        <td>0.753059822</td>
                     </tr>
                     <tbody>
         
@@ -209,7 +209,7 @@
             <td>0</td>
             <td>0</td>
             <td>0</td>
-            <td>0.000180856</td>
+            <td>0.000208859</td>
         </tr>
         <tr> -->
             
@@ -217,10 +217,10 @@
         <!-- <tr>
             <td>test</td>
             <td>1</td>
-            <td>1</td>
             <td>0</td>
             <td>0</td>
-            <td>0.243333116</td>
+            <td>0</td>
+            <td>0.752850963</td>
         </tr>
         <tr> -->
             
@@ -246,22 +246,17 @@
                             <tr class="message-cell">
                                 
                                 <td>
-                                    ❌      user_test
+                                    ✅      user_test
                                     <span class="error-message">
-                                        <pre>String("{\n            \"id\": 1,\n            \"user_name\": \"subhankar\",\n            \"comment\": \"user added \"\n            }")
-Err(Os { code: 2, kind: NotFound, message: "No such file or directory" })
-"200"
-thread 'user_test' panicked at tests/user_test/mod.rs:266:21:
-Body Error Some([BodyMismatch { path: "$", expected: Some(b"{\"comment\":\"user added \",\"id\":1,\"user_name\":\"biswas\"}"), actual: Some(b"{\"comment\":\"user added \",\"id\":1,\"user_name\":\"subhankar\"}"), mismatch: "Expected body '{\"comment\":\"user added \",\"id\":1,\"user_name\":\"biswas\"}' to match '{\"comment\":\"user added \",\"id\":1,\"user_name\":\"subhankar\"}' using equality but did not match" }])
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace</pre>
+                                        <pre></pre>
                                     </span>
                                 </td>
-                                <td class ="status">Failed</td>
+                                <td class ="status">Passed</td>
                                 <td>
-                                    assertion failed
+                                    
                                     
                                 </td>
-                                <td>0.242351781</td>
+                                <td>0.751673554</td>
                                 
                             </tr>
                             
