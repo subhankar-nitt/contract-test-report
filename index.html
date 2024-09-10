@@ -254,7 +254,7 @@ Body Error Some([BodyMismatch { path: "$", expected: Some(b"{\"comment\":\"user 
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace</pre>
                                     </span>
                                 </td>
-                                <td>Failed</td>
+                                <td class ="status">Failed</td>
                                 <td>
                                     assertion failed
                                     
@@ -272,7 +272,7 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace</p
                                         <pre></pre>
                                     </span>
                                 </td>
-                                <td>Passed</td>
+                                <td class ="status">Passed</td>
                                 <td>
                                     
                                     
@@ -294,14 +294,20 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace</p
         const messageCells = document.querySelectorAll('.message-cell');
         const errorMessage = document.querySelector('.error-message');
         const errorMessagePre = document.querySelector('pre'); 
-        messageCells.forEach(cell =>{
-            cell.addEventListener('mouseover',()=>{
-                errorMessagePre.textContent = cell.dataset.message;
-                errorMessage.style.display = 'block';
+        const table = document.querySelector('table');
 
-                const cellREct = cell.getBoundingClientRect();
-                errorMessage.style.left = `${cellRect.left}px`;
-                errorMessage.style.top = `${cellRect.bottom}px`
+        
+        messageCells.forEach(cell =>{
+            cell.addEventListener('mouseover',(event)=>{
+                const closetTable = event.target.closest('tr');
+                const status = closetTable.querySelector('.status').textContent; 
+                if(!status.toLowerCase().match("Passed".toLowerCase())){
+                    errorMessage.style.display = 'block';
+
+                    const cellRect = cell.getBoundingClientRect();
+                    
+                }
+                
             })
             cell.addEventListener('mouseout',()=>{
                 errorMessage.style.display = 'none';
