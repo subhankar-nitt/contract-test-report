@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="user_test" tests="2" skipped="0" failures="1" errors="0" timestamp="2024-09-10T05:44:52" hostname="7416d3638326" time="0.087253222"><testcase name="user_test::user_tests::contract_provider" classname="user_test" time="0.000563701"><failure message="assertion failed">Error: Os { code: 2, kind: NotFound, message: &quot;No such file or directory&quot; }
-</failure></testcase><testcase name="user_test::user_tests::contract_consumer" classname="user_test" time="0.086711139"/>
+<testsuite name="user_test" tests="2" skipped="0" failures="1" errors="0" timestamp="2024-09-10T05:58:56" hostname="2b875cc6e65d" time="0.084781463"><testcase name="user_test::user_tests::contract_provider" classname="user_test" time="0.000527542"><failure message="assertion failed">Error: Os { code: 2, kind: NotFound, message: &quot;No such file or directory&quot; }
+</failure></testcase><testcase name="user_test::user_tests::contract_consumer" classname="user_test" time="0.083623294"/>
 </testsuite>
