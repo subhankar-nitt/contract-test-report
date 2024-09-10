@@ -16,7 +16,7 @@
       },
       "response": {
         "body": {
-          "comment": "user_added ",
+          "comment": "user added ",
           "id": 1,
           "user_name": "subhankar"
         },
@@ -39,7 +39,7 @@
       },
       "response": {
         "body": {
-          "comment": "user_added ",
+          "comment": "user added ",
           "id": 2,
           "user_name": "biswas"
         },
