@@ -189,7 +189,7 @@
                         <td>1</td>
                         <td>1</td>
                         
-                        <td>1.385998729</td>
+                        <td>0.5772616989999999</td>
                     </tr>
                     <tbody>
         
@@ -209,7 +209,7 @@
             <td>0</td>
             <td>0</td>
             <td>0</td>
-            <td>0.000203524</td>
+            <td>0.000186642</td>
         </tr>
         <tr> -->
             
@@ -220,7 +220,7 @@
             <td>1</td>
             <td>0</td>
             <td>0</td>
-            <td>1.385795205</td>
+            <td>0.577075057</td>
         </tr>
         <tr> -->
             
@@ -246,6 +246,27 @@
                             <tr class="message-cell">
                                 
                                 <td>
+                                    ❌      user_test::user_tests::contract_provider
+                                    <span class="error-message">
+                                        <pre>"200"
+thread 'user_test::user_tests::contract_provider' panicked at tests/user_test/mod.rs:258:21:
+Body Error Some([BodyMismatch { path: "$", expected: Some(b"{\"comment\":\"user added \",\"id\":1,\"user_name\":\"subhankar\"}"), actual: Some(b"{\"comment\":\"unit added \",\"id\":1,\"user_name\":\"subhankar\"}"), mismatch: "Expected body '{\"comment\":\"user added \",\"id\":1,\"user_name\":\"subhankar\"}' to match '{\"comment\":\"unit added \",\"id\":1,\"user_name\":\"subhankar\"}' using equality but did not match" }])
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace</pre>
+                                    </span>
+                                </td>
+                                <td>Failed</td>
+                                <td>
+                                    assertion failed
+                                    
+                                </td>
+                                <td>0.229228734</td>
+                                
+                            </tr>
+                            
+                            
+                            <tr class="message-cell">
+                                
+                                <td>
                                     ✅      user_test::user_tests::contract_consumer
                                     <span class="error-message">
                                         <pre></pre>
@@ -256,28 +277,7 @@
                                     
                                     
                                 </td>
-                                <td>0.580580277</td>
-                                
-                            </tr>
-                            
-                            
-                            <tr class="message-cell">
-                                
-                                <td>
-                                    ❌      user_test::user_tests::contract_provider
-                                    <span class="error-message">
-                                        <pre>"200"
-thread 'user_test::user_tests::contract_provider' panicked at tests/user_test/mod.rs:258:21:
-Body Error Some([BodyMismatch { path: "$", expected: Some(b"null"), actual: Some(b"{\"comment\":\"unit added \",\"id\":1,\"user_name\":\"subhankar\"}"), mismatch: "Expected body 'null' to match '{\"comment\":\"unit added \",\"id\":1,\"user_name\":\"subhankar\"}' using equality but did not match" }])
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace</pre>
-                                    </span>
-                                </td>
-                                <td>Failed</td>
-                                <td>
-                                    assertion failed
-                                    
-                                </td>
-                                <td>1.385018435</td>
+                                <td>0.575486031</td>
                                 
                             </tr>
                             
