@@ -4,10 +4,10 @@
   },
   "interactions": [
     {
-      "description": "Get user_test by ID",
+      "description": "Get User_test by ID",
       "providerStates": [
         {
-          "name": "An unit exists with id 1"
+          "name": "Get User With ID 1"
         }
       ],
       "request": {
@@ -16,21 +16,21 @@
       },
       "response": {
         "body": {
-          "comment": "user added ",
+          "comment": "user_added ",
           "id": 1,
           "user_name": "subhankar"
         },
         "headers": {
-          "content-type": "application/json"
+          "Content-Type": "\"application/json\""
         },
         "status": 200
       }
     },
     {
-      "description": "Get user_test by ID",
+      "description": "Get User_test by ID",
       "providerStates": [
         {
-          "name": "An unit exists with id 2"
+          "name": "Get User With ID 2"
         }
       ],
       "request": {
@@ -39,12 +39,12 @@
       },
       "response": {
         "body": {
-          "comment": "user added ",
+          "comment": "user_added ",
           "id": 2,
           "user_name": "biswas"
         },
         "headers": {
-          "content-type": "application/json"
+          "Content-Type": "\"application/json\""
         },
         "status": 200
       }
