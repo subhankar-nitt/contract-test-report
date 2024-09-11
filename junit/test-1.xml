@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-09-11T08:32:02" hostname="67c1082357f6" time="1.369600448"><testcase name="user_test" classname="user_test" time="1.368538674"><failure message="assertion failed">&quot;200&quot;
+<testsuite name="test" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-09-11T08:41:57" hostname="0bebd44803ce" time="1.326401406"><testcase name="user_test" classname="user_test" time="1.325203031"><failure message="assertion failed">&quot;200&quot;
 thread &apos;user_test&apos; panicked at tests/user_test/mod.rs:412:17:
 Body Error Some([BodyMismatch { path: &quot;$&quot;, expected: Some(b&quot;null&quot;), actual: Some(b&quot;{\&quot;comment\&quot;:\&quot;user added \&quot;,\&quot;id\&quot;:1,\&quot;user_name\&quot;:\&quot;subhankar\&quot;}&quot;), mismatch: &quot;Expected body &apos;null&apos; to match &apos;{\&quot;comment\&quot;:\&quot;user added \&quot;,\&quot;id\&quot;:1,\&quot;user_name\&quot;:\&quot;subhankar\&quot;}&apos; using equality but did not match&quot; }])
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
