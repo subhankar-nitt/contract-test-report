@@ -1,3 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-11T04:13:36" hostname="90aad6c0c3af" time="0.706783654"><testcase name="user_test" classname="user_test" time="0.706101562"/>
+<testsuite name="test" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-11T04:51:33" hostname="72639ca8a9c8" time="0.745301009"><testcase name="user_test" classname="user_test" time="0.744621156"/>
 </testsuite>
