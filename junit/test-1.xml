@@ -1,7 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-09-11T05:40:46" hostname="6e93eb0ab767" time="2.727312992"><testcase name="user_test" classname="user_test" time="2.726358802"><failure message="assertion failed">&quot;200&quot;
-thread &apos;user_test&apos; panicked at tests/user_test/mod.rs:412:17:
-Body Error Some([BodyMismatch { path: &quot;$&quot;, expected: Some(b&quot;null&quot;), actual: Some(b&quot;{\&quot;comment\&quot;:\&quot;user added \&quot;,\&quot;id\&quot;:1,\&quot;user_name\&quot;:\&quot;subhankar\&quot;}&quot;), mismatch: &quot;Expected body &apos;null&apos; to match &apos;{\&quot;comment\&quot;:\&quot;user added \&quot;,\&quot;id\&quot;:1,\&quot;user_name\&quot;:\&quot;subhankar\&quot;}&apos; using equality but did not match&quot; }])
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-</failure></testcase>
+<testsuite name="test" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-11T06:00:49" hostname="927731cda6ce" time="0.902870505"><testcase name="user_test" classname="user_test" time="0.902124925"/>
 </testsuite>
