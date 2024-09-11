@@ -71,6 +71,29 @@
         },
         "status": 200
       }
+    },
+    {
+      "description": "Get User_test by ID",
+      "providerStates": [
+        {
+          "name": "GET User With ID 4"
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "path": "/users/4"
+      },
+      "response": {
+        "body": {
+          "comment": "user added ",
+          "id": 4,
+          "user_name": "John"
+        },
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "status": 200
+      }
     }
   ],
   "metadata": {
