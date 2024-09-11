@@ -41,7 +41,7 @@
         "body": {
           "comment": "user added ",
           "id": 2,
-          "user_name": "biswas"
+          "user_name": "subhankar"
         },
         "headers": {
           "Content-Type": "application/json"
@@ -64,7 +64,7 @@
         "body": {
           "comment": "user added ",
           "id": 3,
-          "user_name": "ram"
+          "user_name": "biswas"
         },
         "headers": {
           "Content-Type": "application/json"
@@ -87,7 +87,7 @@
         "body": {
           "comment": "user added ",
           "id": 4,
-          "user_name": "John"
+          "user_name": "ram"
         },
         "headers": {
           "Content-Type": "application/json"
