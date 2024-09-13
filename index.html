@@ -157,7 +157,7 @@
                         data:{
                             labels: ['Passed','Failed'],
                             datasets:[{
-                                data: [0,1],
+                                data: [2,1],
                                 backgroundColor: ['#4CAF50','#F44336'],
                                 borderWidth:1
                             }]
@@ -192,12 +192,12 @@
                     </thead>
                     <tr>
                         
-                        <td>1</td>
-                        <td>0</td>
+                        <td>3</td>
+                        <td>2</td>
                         <td>1</td>
                         
-                        <td>1.769507294</td>
-                        <td>Wed 11 Sep, 10:02:54 UTC+05:30</td>
+                        <td>0.126486756</td>
+                        <td>Fri 13 Sep, 08:08:33 UTC+05:30</td>
                     </tr>
                     <tbody>
         
@@ -217,25 +217,25 @@
             <td>0</td>
             <td>0</td>
             <td>0</td>
-            <td>0.000192245</td>
+            <td>0.000185456</td>
         </tr>
         <tr> -->
             
         
         <!-- <tr>
             <td>test</td>
-            <td>1</td>
+            <td>3</td>
             <td>1</td>
             <td>0</td>
             <td>0</td>
-            <td>1.769315049</td>
+            <td>0.1263013</td>
         </tr>
         <tr> -->
             
             
             <td colspan="6">
 
-                <h2 class="header2">Test Class: user_test</h2>
+                <h2 class="header2">Test Class: get_user_1</h2>
                 <div class = "table-container">
 
                     <table>
@@ -254,11 +254,35 @@
                             <tr class="message-cell">
                                 
                                 <td>
-                                    ❌      user_test
+                                    ✅      get_user_1
                                     <span class="error-message">
-                                        <pre>"200"
-thread 'user_test' panicked at tests/user_test/mod.rs:412:17:
-Body Error Some([BodyMismatch { path: "$", expected: Some(b"null"), actual: Some(b"{\"comment\":\"user added \",\"id\":1,\"user_name\":\"subhankar\"}"), mismatch: "Expected body 'null' to match '{\"comment\":\"user added \",\"id\":1,\"user_name\":\"subhankar\"}' using equality but did not match" }])
+                                        <pre></pre>
+                                    </span>
+                                </td>
+                                <td class ="status">Passed</td>
+                                <td>
+                                    
+                                    
+                                </td>
+                                <td>0.083459449</td>
+                                <td>
+                                    <a href=https://subhankar-nitt.github.io/contract-test-report/users/consumer-producer.json download="contract.json">
+                                        <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/download-icon-10008164-8108583.png?f=webp&w=256" alt="Download">
+                                    </a>
+                                </td>
+                                
+                            </tr>
+                            
+                            
+                            <tr class="message-cell">
+                                
+                                <td>
+                                    ❌      add_user
+                                    <span class="error-message">
+                                        <pre>thread 'add_user' panicked at tests/contract_testing_logic/mod.rs:154:9:
+assertion `left == right` failed
+  left: 404
+ right: 201
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace</pre>
                                     </span>
                                 </td>
@@ -267,7 +291,30 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace</p
                                     assertion failed
                                     
                                 </td>
-                                <td>1.76830599</td>
+                                <td>0.084488917</td>
+                                <td>
+                                    <a href=https://subhankar-nitt.github.io/contract-test-report/users/consumer-producer.json download="contract.json">
+                                        <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/download-icon-10008164-8108583.png?f=webp&w=256" alt="Download">
+                                    </a>
+                                </td>
+                                
+                            </tr>
+                            
+                            
+                            <tr class="message-cell">
+                                
+                                <td>
+                                    ✅      get_user_2
+                                    <span class="error-message">
+                                        <pre></pre>
+                                    </span>
+                                </td>
+                                <td class ="status">Passed</td>
+                                <td>
+                                    
+                                    
+                                </td>
+                                <td>0.041393881</td>
                                 <td>
                                     <a href=https://subhankar-nitt.github.io/contract-test-report/users/consumer-producer.json download="contract.json">
                                         <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/download-icon-10008164-8108583.png?f=webp&w=256" alt="Download">
