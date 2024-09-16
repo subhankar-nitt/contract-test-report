@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test" tests="5" skipped="0" failures="1" errors="0" timestamp="2024-09-16T18:42:19" hostname="555b19597004" time="0.22134136"><testcase name="add_user" classname="add_user" time="0.09535178"><failure message="assertion failed">thread &apos;add_user&apos; panicked at tests/contract_testing_logic/mod.rs:155:9:
+<testsuite name="test" tests="5" skipped="0" failures="1" errors="0" timestamp="2024-09-16T18:52:55" hostname="d1c0365ee166" time="0.216228208"><testcase name="add_user" classname="add_user" time="0.089347981"><failure message="assertion failed">thread &apos;add_user&apos; panicked at tests/contract_testing_logic/mod.rs:155:9:
 assertion `left == right` failed
   left: 404
  right: 201
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-</failure></testcase><testcase name="get_user_1" classname="get_user_1" time="0.095326564"/><testcase name="get_user_2" classname="get_user_2" time="0.077967473"/><testcase name="get_user_3" classname="get_user_3" time="0.079236481"/><testcase name="get_user_4" classname="get_user_4" time="0.046019199"/>
+</failure></testcase><testcase name="get_user_1" classname="get_user_1" time="0.089321532"/><testcase name="get_user_2" classname="get_user_2" time="0.079749631"/><testcase name="get_user_3" classname="get_user_3" time="0.078750812"/><testcase name="get_user_4" classname="get_user_4" time="0.044567777"/>
 </testsuite>
