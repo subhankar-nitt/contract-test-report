@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test" tests="3" skipped="0" failures="1" errors="0" timestamp="2024-09-16T09:57:00" hostname="96d82f22a927" time="0.127518833"><testcase name="get_user_2" classname="get_user_2" time="0.084465977"/><testcase name="get_user_1" classname="get_user_1" time="0.084498727"/><testcase name="get_user_3" classname="get_user_3" time="0.041529267"><failure message="assertion failed">thread &apos;get_user_3&apos; panicked at tests/contract_testing_logic/mod.rs:154:9:
+<testsuite name="test" tests="3" skipped="0" failures="1" errors="0" timestamp="2024-09-16T10:12:37" hostname="f35fb9259e63" time="0.125707937"><testcase name="get_user_1" classname="get_user_1" time="0.084171237"/><testcase name="get_user_2" classname="get_user_2" time="0.084125063"/><testcase name="get_user_3" classname="get_user_3" time="0.040089456"><failure message="assertion failed">thread &apos;get_user_3&apos; panicked at tests/contract_testing_logic/mod.rs:154:9:
 assertion `left == right` failed
   left: 404
  right: 200
