@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test" tests="3" skipped="0" failures="2" errors="0" timestamp="2024-09-16T08:39:45" hostname="88d42242a5ef" time="0.123691769"><testcase name="get_user_1" classname="get_user_1" time="0.082331413"/><testcase name="get_user_2" classname="get_user_2" time="0.082436108"><failure message="assertion failed">thread &apos;get_user_2&apos; panicked at tests/contract_testing_logic/mod.rs:184:9:
-assertion `left == right` failed
-  left: &quot;{\&quot;comment\&quot;:\&quot;user added \&quot;,\&quot;id\&quot;:2,\&quot;user_name\&quot;:\&quot;subhankar\&quot;}&quot;
- right: &quot;{\&quot;comment\&quot;:\&quot;user added \&quot;,\&quot;id\&quot;:2,\&quot;user_name\&quot;:\&quot;biswas\&quot;}&quot;
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-</failure></testcase><testcase name="get_user_3" classname="get_user_3" time="0.039947788"><failure message="assertion failed">thread &apos;get_user_3&apos; panicked at tests/contract_testing_logic/mod.rs:154:9:
+<testsuite name="test" tests="3" skipped="0" failures="1" errors="0" timestamp="2024-09-16T09:19:18" hostname="01b018954f11" time="0.128347434"><testcase name="get_user_1" classname="get_user_1" time="0.084054245"/><testcase name="get_user_2" classname="get_user_2" time="0.084561139"/><testcase name="get_user_3" classname="get_user_3" time="0.04284098"><failure message="assertion failed">thread &apos;get_user_3&apos; panicked at tests/contract_testing_logic/mod.rs:154:9:
 assertion `left == right` failed
   left: 404
  right: 200
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 </failure></testcase>
 </testsuite>
