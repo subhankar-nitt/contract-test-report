@@ -157,7 +157,7 @@
                         data:{
                             labels: ['Passed','Failed'],
                             datasets:[{
-                                data: [4,1],
+                                data: [0,5],
                                 backgroundColor: ['#4CAF50','#F44336'],
                                 borderWidth:1
                             }]
@@ -193,11 +193,11 @@
                     <tr>
                         
                         <td>5</td>
-                        <td>4</td>
-                        <td>1</td>
+                        <td>0</td>
+                        <td>5</td>
                         
-                        <td>0.217158043</td>
-                        <td>Mon 16 Sep, 16:09:55 UTC+05:30</td>
+                        <td>0.19969171</td>
+                        <td>Mon 16 Sep, 16:10:04 UTC+05:30</td>
                     </tr>
                     <tbody>
         
@@ -217,7 +217,7 @@
             <td>0</td>
             <td>0</td>
             <td>0</td>
-            <td>0.000214348</td>
+            <td>0.000213448</td>
         </tr>
         <tr> -->
             
@@ -225,10 +225,10 @@
         <!-- <tr>
             <td>test</td>
             <td>5</td>
-            <td>1</td>
+            <td>5</td>
             <td>0</td>
             <td>0</td>
-            <td>0.216943695</td>
+            <td>0.199478262</td>
         </tr>
         <tr> -->
             
@@ -268,7 +268,7 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace</p
                                     assertion failed
                                     
                                 </td>
-                                <td>0.089317484</td>
+                                <td>0.084401152</td>
                                 <td>
                                     <a href=https://subhankar-nitt.github.io/contract-test-report/users/consumer-producer.json download="contract.json">
                                         <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/download-icon-10008164-8108583.png?f=webp&w=256" alt="Download">
@@ -281,17 +281,20 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace</p
                             <tr class="message-cell">
                                 
                                 <td>
-                                    ✅      get_user_1
+                                    ❌      get_user_1
                                     <span class="error-message">
-                                        <pre></pre>
+                                        <pre>thread 'get_user_1' panicked at tests/contract_testing_logic/mod.rs:154:9:
+assertion `left == right` failed
+  left: 404
+ right: 200</pre>
                                     </span>
                                 </td>
-                                <td class ="status">Passed</td>
+                                <td class ="status">Failed</td>
                                 <td>
-                                    
+                                    assertion failed
                                     
                                 </td>
-                                <td>0.089285407</td>
+                                <td>0.085824708</td>
                                 <td>
                                     <a href=https://subhankar-nitt.github.io/contract-test-report/users/consumer-producer.json download="contract.json">
                                         <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/download-icon-10008164-8108583.png?f=webp&w=256" alt="Download">
@@ -304,17 +307,20 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace</p
                             <tr class="message-cell">
                                 
                                 <td>
-                                    ✅      get_user_2
+                                    ❌      get_user_2
                                     <span class="error-message">
-                                        <pre></pre>
+                                        <pre>thread 'get_user_2' panicked at tests/contract_testing_logic/mod.rs:154:9:
+assertion `left == right` failed
+  left: 404
+ right: 200</pre>
                                     </span>
                                 </td>
-                                <td class ="status">Passed</td>
+                                <td class ="status">Failed</td>
                                 <td>
-                                    
+                                    assertion failed
                                     
                                 </td>
-                                <td>0.075941666</td>
+                                <td>0.066431339</td>
                                 <td>
                                     <a href=https://subhankar-nitt.github.io/contract-test-report/users/consumer-producer.json download="contract.json">
                                         <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/download-icon-10008164-8108583.png?f=webp&w=256" alt="Download">
@@ -327,17 +333,20 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace</p
                             <tr class="message-cell">
                                 
                                 <td>
-                                    ✅      get_user_3
+                                    ❌      get_user_3
                                     <span class="error-message">
-                                        <pre></pre>
+                                        <pre>thread 'get_user_3' panicked at tests/contract_testing_logic/mod.rs:154:9:
+assertion `left == right` failed
+  left: 404
+ right: 200</pre>
                                     </span>
                                 </td>
-                                <td class ="status">Passed</td>
+                                <td class ="status">Failed</td>
                                 <td>
-                                    
+                                    assertion failed
                                     
                                 </td>
-                                <td>0.081678925</td>
+                                <td>0.075056054</td>
                                 <td>
                                     <a href=https://subhankar-nitt.github.io/contract-test-report/users/consumer-producer.json download="contract.json">
                                         <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/download-icon-10008164-8108583.png?f=webp&w=256" alt="Download">
@@ -350,17 +359,20 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace</p
                             <tr class="message-cell">
                                 
                                 <td>
-                                    ✅      get_user_4
+                                    ❌      get_user_4
                                     <span class="error-message">
-                                        <pre></pre>
+                                        <pre>thread 'get_user_4' panicked at tests/contract_testing_logic/mod.rs:154:9:
+assertion `left == right` failed
+  left: 404
+ right: 200</pre>
                                     </span>
                                 </td>
-                                <td class ="status">Passed</td>
+                                <td class ="status">Failed</td>
                                 <td>
-                                    
+                                    assertion failed
                                     
                                 </td>
-                                <td>0.049883872</td>
+                                <td>0.04675803</td>
                                 <td>
                                     <a href=https://subhankar-nitt.github.io/contract-test-report/users/consumer-producer.json download="contract.json">
                                         <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/download-icon-10008164-8108583.png?f=webp&w=256" alt="Download">
