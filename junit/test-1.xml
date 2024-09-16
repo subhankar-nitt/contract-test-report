@@ -1,24 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test" tests="5" skipped="0" failures="5" errors="0" timestamp="2024-09-16T16:04:56" hostname="5761e9a91e69" time="0.20393725"><testcase name="add_user" classname="add_user" time="0.079975843"><failure message="assertion failed">thread &apos;add_user&apos; panicked at tests/contract_testing_logic/mod.rs:154:9:
+<testsuite name="test" tests="5" skipped="0" failures="1" errors="0" timestamp="2024-09-16T16:09:43" hostname="f7c268f3fc8f" time="0.216943695"><testcase name="add_user" classname="add_user" time="0.089317484"><failure message="assertion failed">thread &apos;add_user&apos; panicked at tests/contract_testing_logic/mod.rs:154:9:
 assertion `left == right` failed
   left: 404
  right: 201
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-</failure></testcase><testcase name="get_user_1" classname="get_user_1" time="0.084621928"><failure message="assertion failed">thread &apos;get_user_1&apos; panicked at tests/contract_testing_logic/mod.rs:154:9:
-assertion `left == right` failed
-  left: 404
- right: 200
-</failure></testcase><testcase name="get_user_2" classname="get_user_2" time="0.077515065"><failure message="assertion failed">thread &apos;get_user_2&apos; panicked at tests/contract_testing_logic/mod.rs:154:9:
-assertion `left == right` failed
-  left: 404
- right: 200
-</failure></testcase><testcase name="get_user_3" classname="get_user_3" time="0.078732596"><failure message="assertion failed">thread &apos;get_user_3&apos; panicked at tests/contract_testing_logic/mod.rs:154:9:
-assertion `left == right` failed
-  left: 404
- right: 200
-</failure></testcase><testcase name="get_user_4" classname="get_user_4" time="0.04448996"><failure message="assertion failed">thread &apos;get_user_4&apos; panicked at tests/contract_testing_logic/mod.rs:154:9:
-assertion `left == right` failed
-  left: 404
- right: 200
-</failure></testcase>
+</failure></testcase><testcase name="get_user_1" classname="get_user_1" time="0.089285407"/><testcase name="get_user_2" classname="get_user_2" time="0.075941666"/><testcase name="get_user_3" classname="get_user_3" time="0.081678925"/><testcase name="get_user_4" classname="get_user_4" time="0.049883872"/>
 </testsuite>
