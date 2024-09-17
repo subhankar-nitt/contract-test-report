@@ -157,7 +157,7 @@
                         data:{
                             labels: ['Passed','Failed'],
                             datasets:[{
-                                data: [5,0],
+                                data: [4,1],
                                 backgroundColor: ['#4CAF50','#F44336'],
                                 borderWidth:1
                             }]
@@ -193,11 +193,11 @@
                     <tr>
                         
                         <td>5</td>
-                        <td>5</td>
-                        <td>0</td>
+                        <td>4</td>
+                        <td>1</td>
                         
-                        <td>0.20658173999999999</td>
-                        <td>Tue 17 Sep, 03:45:23 UTC+05:30</td>
+                        <td>0.208964757</td>
+                        <td>Tue 17 Sep, 04:17:35 UTC+05:30</td>
                     </tr>
                     <tbody>
         
@@ -217,7 +217,7 @@
             <td>0</td>
             <td>0</td>
             <td>0</td>
-            <td>0.00018911</td>
+            <td>0.000165691</td>
         </tr>
         <tr> -->
             
@@ -225,17 +225,17 @@
         <!-- <tr>
             <td>test</td>
             <td>5</td>
+            <td>1</td>
             <td>0</td>
             <td>0</td>
-            <td>0</td>
-            <td>0.20639263</td>
+            <td>0.208799066</td>
         </tr>
         <tr> -->
             
             
             <td colspan="6">
 
-                <h2 class="header2">Test Class: add_user</h2>
+                <h2 class="header2">Test Class: get_user_1</h2>
                 <div class = "table-container">
 
                     <table>
@@ -254,7 +254,7 @@
                             <tr class="message-cell">
                                 
                                 <td>
-                                    ✅      add_user
+                                    ✅      get_user_1
                                     <span class="error-message">
                                         <pre></pre>
                                     </span>
@@ -264,7 +264,7 @@
                                     
                                     
                                 </td>
-                                <td>0.085336548</td>
+                                <td>0.087089315</td>
                                 <td>
                                     <a href=https://subhankar-nitt.github.io/contract-test-report/users/consumer-producer.json download="contract.json">
                                         <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/download-icon-10008164-8108583.png?f=webp&w=256" alt="Download">
@@ -277,7 +277,7 @@
                             <tr class="message-cell">
                                 
                                 <td>
-                                    ✅      get_user_1
+                                    ✅      add_user
                                     <span class="error-message">
                                         <pre></pre>
                                     </span>
@@ -287,7 +287,34 @@
                                     
                                     
                                 </td>
-                                <td>0.085325277</td>
+                                <td>0.089315733</td>
+                                <td>
+                                    <a href=https://subhankar-nitt.github.io/contract-test-report/users/consumer-producer.json download="contract.json">
+                                        <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/download-icon-10008164-8108583.png?f=webp&w=256" alt="Download">
+                                    </a>
+                                </td>
+                                
+                            </tr>
+                            
+                            
+                            <tr class="message-cell">
+                                
+                                <td>
+                                    ❌      get_user_2
+                                    <span class="error-message">
+                                        <pre>thread 'get_user_2' panicked at tests/contract_testing_logic/mod.rs:185:9:
+assertion `left == right` failed
+  left: "{\"comment\":\"user added \",\"id\":2,\"user_name\":\"biswas\"}"
+ right: "{\"comment\":\"user added \",\"id\":2,\"user_name\":\"ram\"}"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace</pre>
+                                    </span>
+                                </td>
+                                <td class ="status">Failed</td>
+                                <td>
+                                    assertion failed
+                                    
+                                </td>
+                                <td>0.076225234</td>
                                 <td>
                                     <a href=https://subhankar-nitt.github.io/contract-test-report/users/consumer-producer.json download="contract.json">
                                         <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/download-icon-10008164-8108583.png?f=webp&w=256" alt="Download">
@@ -310,30 +337,7 @@
                                     
                                     
                                 </td>
-                                <td>0.077685372</td>
-                                <td>
-                                    <a href=https://subhankar-nitt.github.io/contract-test-report/users/consumer-producer.json download="contract.json">
-                                        <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/download-icon-10008164-8108583.png?f=webp&w=256" alt="Download">
-                                    </a>
-                                </td>
-                                
-                            </tr>
-                            
-                            
-                            <tr class="message-cell">
-                                
-                                <td>
-                                    ✅      get_user_2
-                                    <span class="error-message">
-                                        <pre></pre>
-                                    </span>
-                                </td>
-                                <td class ="status">Passed</td>
-                                <td>
-                                    
-                                    
-                                </td>
-                                <td>0.077722468</td>
+                                <td>0.074657564</td>
                                 <td>
                                     <a href=https://subhankar-nitt.github.io/contract-test-report/users/consumer-producer.json download="contract.json">
                                         <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/download-icon-10008164-8108583.png?f=webp&w=256" alt="Download">
@@ -356,7 +360,7 @@
                                     
                                     
                                 </td>
-                                <td>0.041646801</td>
+                                <td>0.043791977</td>
                                 <td>
                                     <a href=https://subhankar-nitt.github.io/contract-test-report/users/consumer-producer.json download="contract.json">
                                         <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/download-icon-10008164-8108583.png?f=webp&w=256" alt="Download">

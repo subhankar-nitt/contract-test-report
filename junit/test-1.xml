@@ -1,3 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-09-17T03:45:03" hostname="b594bf3886f1" time="0.20639263"><testcase name="add_user" classname="add_user" time="0.085336548"/><testcase name="get_user_1" classname="get_user_1" time="0.085325277"/><testcase name="get_user_3" classname="get_user_3" time="0.077685372"/><testcase name="get_user_2" classname="get_user_2" time="0.077722468"/><testcase name="get_user_4" classname="get_user_4" time="0.041646801"/>
+<testsuite name="test" tests="5" skipped="0" failures="1" errors="0" timestamp="2024-09-17T04:17:22" hostname="687a3f476086" time="0.208799066"><testcase name="get_user_1" classname="get_user_1" time="0.087089315"/><testcase name="add_user" classname="add_user" time="0.089315733"/><testcase name="get_user_2" classname="get_user_2" time="0.076225234"><failure message="assertion failed">thread &apos;get_user_2&apos; panicked at tests/contract_testing_logic/mod.rs:185:9:
+assertion `left == right` failed
+  left: &quot;{\&quot;comment\&quot;:\&quot;user added \&quot;,\&quot;id\&quot;:2,\&quot;user_name\&quot;:\&quot;biswas\&quot;}&quot;
+ right: &quot;{\&quot;comment\&quot;:\&quot;user added \&quot;,\&quot;id\&quot;:2,\&quot;user_name\&quot;:\&quot;ram\&quot;}&quot;
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+</failure></testcase><testcase name="get_user_3" classname="get_user_3" time="0.074657564"/><testcase name="get_user_4" classname="get_user_4" time="0.043791977"/>
 </testsuite>
