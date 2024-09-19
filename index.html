@@ -157,7 +157,7 @@
                         data:{
                             labels: ['Passed','Failed'],
                             datasets:[{
-                                data: [0,5],
+                                data: [1,4],
                                 backgroundColor: ['#4CAF50','#F44336'],
                                 borderWidth:1
                             }]
@@ -193,11 +193,11 @@
                     <tr>
                         
                         <td>5</td>
-                        <td>0</td>
-                        <td>5</td>
+                        <td>1</td>
+                        <td>4</td>
                         
-                        <td>0.213012156</td>
-                        <td>Thu 19 Sep, 14:44:14 UTC+05:30</td>
+                        <td>0.205143152</td>
+                        <td>Thu 19 Sep, 14:52:54 UTC+05:30</td>
                     </tr>
                     <tbody>
         
@@ -217,7 +217,7 @@
             <td>0</td>
             <td>0</td>
             <td>0</td>
-            <td>0.000213648</td>
+            <td>0.000186615</td>
         </tr>
         <tr> -->
             
@@ -225,17 +225,17 @@
         <!-- <tr>
             <td>test</td>
             <td>5</td>
-            <td>5</td>
+            <td>4</td>
             <td>0</td>
             <td>0</td>
-            <td>0.212798508</td>
+            <td>0.204956537</td>
         </tr>
         <tr> -->
             
             
             <td colspan="6">
 
-                <h2 class="header2">Test Class: get_user_1</h2>
+                <h2 class="header2">Test Class: add_user</h2>
                 <div class = "table-container">
 
                     <table>
@@ -254,12 +254,12 @@
                             <tr class="message-cell">
                                 
                                 <td>
-                                    ❌      get_user_1
+                                    ❌      add_user
                                     <span class="error-message">
-                                        <pre>thread 'get_user_1' panicked at tests/contract_testing_logic/mod.rs:185:9:
+                                        <pre>thread 'add_user' panicked at tests/contract_testing_logic/mod.rs:155:9:
 assertion `left == right` failed
-  left: ""
- right: "{\"comment\":\"user added \",\"id\":1,\"user_name\":\"subhankar\"}"
+  left: 404
+ right: 201
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace</pre>
                                     </span>
                                 </td>
@@ -268,7 +268,7 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace</p
                                     assertion failed
                                     
                                 </td>
-                                <td>0.08913004</td>
+                                <td>0.084402026</td>
                                 <td>
                                     <a href=https://subhankar-nitt.github.io/contract-test-report/users/consumer-producer.json download="contract.json">
                                         <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/download-icon-10008164-8108583.png?f=webp&w=256" alt="Download">
@@ -281,20 +281,17 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace</p
                             <tr class="message-cell">
                                 
                                 <td>
-                                    ❌      add_user
+                                    ✅      get_user_1
                                     <span class="error-message">
-                                        <pre>thread 'add_user' panicked at tests/contract_testing_logic/mod.rs:155:9:
-assertion `left == right` failed
-  left: 404
- right: 201</pre>
+                                        <pre></pre>
                                     </span>
                                 </td>
-                                <td class ="status">Failed</td>
+                                <td class ="status">Passed</td>
                                 <td>
-                                    assertion failed
+                                    
                                     
                                 </td>
-                                <td>0.090575883</td>
+                                <td>0.084369199</td>
                                 <td>
                                     <a href=https://subhankar-nitt.github.io/contract-test-report/users/consumer-producer.json download="contract.json">
                                         <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/download-icon-10008164-8108583.png?f=webp&w=256" alt="Download">
@@ -320,7 +317,7 @@ assertion `left == right` failed
                                     assertion failed
                                     
                                 </td>
-                                <td>0.077491775</td>
+                                <td>0.076116764</td>
                                 <td>
                                     <a href=https://subhankar-nitt.github.io/contract-test-report/users/consumer-producer.json download="contract.json">
                                         <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/download-icon-10008164-8108583.png?f=webp&w=256" alt="Download">
@@ -346,7 +343,7 @@ assertion `left == right` failed
                                     assertion failed
                                     
                                 </td>
-                                <td>0.078428284</td>
+                                <td>0.077156154</td>
                                 <td>
                                     <a href=https://subhankar-nitt.github.io/contract-test-report/users/consumer-producer.json download="contract.json">
                                         <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/download-icon-10008164-8108583.png?f=webp&w=256" alt="Download">
@@ -372,7 +369,7 @@ assertion `left == right` failed
                                     assertion failed
                                     
                                 </td>
-                                <td>0.044399564</td>
+                                <td>0.042795791</td>
                                 <td>
                                     <a href=https://subhankar-nitt.github.io/contract-test-report/users/consumer-producer.json download="contract.json">
                                         <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/download-icon-10008164-8108583.png?f=webp&w=256" alt="Download">
