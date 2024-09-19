@@ -157,7 +157,7 @@
                         data:{
                             labels: ['Passed','Failed'],
                             datasets:[{
-                                data: [1,4],
+                                data: [0,5],
                                 backgroundColor: ['#4CAF50','#F44336'],
                                 borderWidth:1
                             }]
@@ -193,11 +193,11 @@
                     <tr>
                         
                         <td>5</td>
-                        <td>1</td>
-                        <td>4</td>
+                        <td>0</td>
+                        <td>5</td>
                         
-                        <td>0.16970280499999998</td>
-                        <td>Thu 19 Sep, 13:04:55 UTC+05:30</td>
+                        <td>0.21097545099999998</td>
+                        <td>Thu 19 Sep, 13:25:40 UTC+05:30</td>
                     </tr>
                     <tbody>
         
@@ -217,7 +217,7 @@
             <td>0</td>
             <td>0</td>
             <td>0</td>
-            <td>0.000247</td>
+            <td>0.000257135</td>
         </tr>
         <tr> -->
             
@@ -225,10 +225,10 @@
         <!-- <tr>
             <td>test</td>
             <td>5</td>
-            <td>4</td>
+            <td>5</td>
             <td>0</td>
             <td>0</td>
-            <td>0.169455805</td>
+            <td>0.210718316</td>
         </tr>
         <tr> -->
             
@@ -268,7 +268,7 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace</p
                                     assertion failed
                                     
                                 </td>
-                                <td>0.093891533</td>
+                                <td>0.087667601</td>
                                 <td>
                                     <a href=https://subhankar-nitt.github.io/contract-test-report/users/consumer-producer.json download="contract.json">
                                         <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/download-icon-10008164-8108583.png?f=webp&w=256" alt="Download">
@@ -281,35 +281,12 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace</p
                             <tr class="message-cell">
                                 
                                 <td>
-                                    ✅      get_user_1
+                                    ❌      get_user_1
                                     <span class="error-message">
-                                        <pre></pre>
-                                    </span>
-                                </td>
-                                <td class ="status">Passed</td>
-                                <td>
-                                    
-                                    
-                                </td>
-                                <td>0.093842373</td>
-                                <td>
-                                    <a href=https://subhankar-nitt.github.io/contract-test-report/users/consumer-producer.json download="contract.json">
-                                        <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/download-icon-10008164-8108583.png?f=webp&w=256" alt="Download">
-                                    </a>
-                                </td>
-                                
-                            </tr>
-                            
-                            
-                            <tr class="message-cell">
-                                
-                                <td>
-                                    ❌      get_user_3
-                                    <span class="error-message">
-                                        <pre>thread 'get_user_3' panicked at tests/contract_testing_logic/mod.rs:185:9:
+                                        <pre>thread 'get_user_1' panicked at tests/contract_testing_logic/mod.rs:185:9:
 assertion `left == right` failed
-  left: "{\"comment\":\"user added \",\"id\":3,\"user_name\":\"subhankar\"}"
- right: "{\"comment\":\"user added \",\"id\":3,\"user_name\":\"John\"}"</pre>
+  left: ""
+ right: "{\"comment\":\"user added \",\"id\":1,\"user_name\":\"subhankar\"}"</pre>
                                     </span>
                                 </td>
                                 <td class ="status">Failed</td>
@@ -317,7 +294,7 @@ assertion `left == right` failed
                                     assertion failed
                                     
                                 </td>
-                                <td>0.043471731</td>
+                                <td>0.088974922</td>
                                 <td>
                                     <a href=https://subhankar-nitt.github.io/contract-test-report/users/consumer-producer.json download="contract.json">
                                         <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/download-icon-10008164-8108583.png?f=webp&w=256" alt="Download">
@@ -334,7 +311,7 @@ assertion `left == right` failed
                                     <span class="error-message">
                                         <pre>thread 'get_user_2' panicked at tests/contract_testing_logic/mod.rs:185:9:
 assertion `left == right` failed
-  left: "{\"comment\":\"user added \",\"id\":2,\"user_name\":\"subhankar\"}"
+  left: ""
  right: "{\"comment\":\"user added \",\"id\":2,\"user_name\":\"ram\"}"</pre>
                                     </span>
                                 </td>
@@ -343,7 +320,33 @@ assertion `left == right` failed
                                     assertion failed
                                     
                                 </td>
-                                <td>0.044749841</td>
+                                <td>0.076086827</td>
+                                <td>
+                                    <a href=https://subhankar-nitt.github.io/contract-test-report/users/consumer-producer.json download="contract.json">
+                                        <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/download-icon-10008164-8108583.png?f=webp&w=256" alt="Download">
+                                    </a>
+                                </td>
+                                
+                            </tr>
+                            
+                            
+                            <tr class="message-cell">
+                                
+                                <td>
+                                    ❌      get_user_3
+                                    <span class="error-message">
+                                        <pre>thread 'get_user_3' panicked at tests/contract_testing_logic/mod.rs:185:9:
+assertion `left == right` failed
+  left: ""
+ right: "{\"comment\":\"user added \",\"id\":3,\"user_name\":\"John\"}"</pre>
+                                    </span>
+                                </td>
+                                <td class ="status">Failed</td>
+                                <td>
+                                    assertion failed
+                                    
+                                </td>
+                                <td>0.078161461</td>
                                 <td>
                                     <a href=https://subhankar-nitt.github.io/contract-test-report/users/consumer-producer.json download="contract.json">
                                         <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/download-icon-10008164-8108583.png?f=webp&w=256" alt="Download">
@@ -360,7 +363,7 @@ assertion `left == right` failed
                                     <span class="error-message">
                                         <pre>thread 'get_user_4' panicked at tests/contract_testing_logic/mod.rs:185:9:
 assertion `left == right` failed
-  left: "{\"comment\":\"user added \",\"id\":4,\"user_name\":\"subhankar\"}"
+  left: ""
  right: "{\"comment\":\"user added \",\"id\":4,\"user_name\":\"Alice\"}"</pre>
                                     </span>
                                 </td>
@@ -369,7 +372,7 @@ assertion `left == right` failed
                                     assertion failed
                                     
                                 </td>
-                                <td>0.028148541</td>
+                                <td>0.044775025</td>
                                 <td>
                                     <a href=https://subhankar-nitt.github.io/contract-test-report/users/consumer-producer.json download="contract.json">
                                         <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/download-icon-10008164-8108583.png?f=webp&w=256" alt="Download">
