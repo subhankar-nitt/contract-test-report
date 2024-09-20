@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test" tests="5" skipped="0" failures="4" errors="0" timestamp="2024-09-20T07:40:49" hostname="ade6528e760c" time="0.208577897"><testcase name="add_user" classname="add_user" time="0.086276353"><failure message="assertion failed">thread &apos;add_user&apos; panicked at tests/contract_testing_logic/mod.rs:155:9:
+<testsuite name="test" tests="5" skipped="0" failures="4" errors="0" timestamp="2024-09-20T07:46:28" hostname="d46436da4bf6" time="0.205478467"><testcase name="get_user_1" classname="get_user_1" time="0.085315723"/><testcase name="add_user" classname="add_user" time="0.08534478"><failure message="assertion failed">thread &apos;add_user&apos; panicked at tests/contract_testing_logic/mod.rs:155:9:
 assertion `left == right` failed
   left: 404
  right: 201
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-</failure></testcase><testcase name="get_user_1" classname="get_user_1" time="0.086245673"/><testcase name="get_user_2" classname="get_user_2" time="0.077951044"><failure message="assertion failed">thread &apos;get_user_2&apos; panicked at tests/contract_testing_logic/mod.rs:185:9:
+</failure></testcase><testcase name="get_user_2" classname="get_user_2" time="0.071535105"><failure message="assertion failed">thread &apos;get_user_2&apos; panicked at tests/contract_testing_logic/mod.rs:185:9:
 assertion `left == right` failed
   left: &quot;{\&quot;comment\&quot;:\&quot;user added \&quot;,\&quot;id\&quot;:2,\&quot;user_name\&quot;:\&quot;subhankar\&quot;}&quot;
  right: &quot;{\&quot;comment\&quot;:\&quot;user added \&quot;,\&quot;id\&quot;:2,\&quot;user_name\&quot;:\&quot;ram\&quot;}&quot;
-</failure></testcase><testcase name="get_user_3" classname="get_user_3" time="0.07794491"><failure message="assertion failed">thread &apos;get_user_3&apos; panicked at tests/contract_testing_logic/mod.rs:185:9:
+</failure></testcase><testcase name="get_user_3" classname="get_user_3" time="0.077345138"><failure message="assertion failed">thread &apos;get_user_3&apos; panicked at tests/contract_testing_logic/mod.rs:185:9:
 assertion `left == right` failed
-  left: &quot;&quot;
+  left: &quot;{\&quot;comment\&quot;:\&quot;user added \&quot;,\&quot;id\&quot;:3,\&quot;user_name\&quot;:\&quot;subhankar\&quot;}&quot;
  right: &quot;{\&quot;comment\&quot;:\&quot;user added \&quot;,\&quot;id\&quot;:3,\&quot;user_name\&quot;:\&quot;John\&quot;}&quot;
-</failure></testcase><testcase name="get_user_4" classname="get_user_4" time="0.042506641"><failure message="assertion failed">thread &apos;get_user_4&apos; panicked at tests/contract_testing_logic/mod.rs:185:9:
+</failure></testcase><testcase name="get_user_4" classname="get_user_4" time="0.046879117"><failure message="assertion failed">thread &apos;get_user_4&apos; panicked at tests/contract_testing_logic/mod.rs:185:9:
 assertion `left == right` failed
   left: &quot;&quot;
  right: &quot;{\&quot;comment\&quot;:\&quot;user added \&quot;,\&quot;id\&quot;:4,\&quot;user_name\&quot;:\&quot;Alice\&quot;}&quot;
