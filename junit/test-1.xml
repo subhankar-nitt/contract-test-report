@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test" tests="5" skipped="0" failures="5" errors="0" timestamp="2024-09-23T07:13:34" hostname="b268c19d054b" time="0.234099946"><testcase name="get_user_1" classname="get_user_1" time="0.114985151"><failure message="assertion failed">thread &apos;get_user_1&apos; panicked at tests/contract_testing_logic/mod.rs:155:9:
-assertion `left == right` failed
-  left: 404
- right: 200
+<testsuite name="test" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-09-10T13:05:28" hostname="subhankar-modern14b5m" time="3.145286315"><testcase name="user_test" classname="user_test" time="3.144658923"><failure message="assertion failed">thread &apos;user_test&apos; panicked at tests/cloud_storage/mod.rs:12:60:
+called `Result::unwrap()` on an `Err` value: CredentialsIOError(Os { code: 2, kind: NotFound, message: &quot;No such file or directory&quot; })
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-</failure></testcase><testcase name="add_user" classname="add_user" time="0.11514166"><failure message="assertion failed">thread &apos;add_user&apos; panicked at tests/contract_testing_logic/mod.rs:155:9:
-assertion `left == right` failed
-  left: 404
- right: 201
-</failure></testcase><testcase name="get_user_3" classname="get_user_3" time="0.076116154"><failure message="assertion failed">thread &apos;get_user_3&apos; panicked at tests/contract_testing_logic/mod.rs:155:9:
-assertion `left == right` failed
-  left: 404
- right: 200
-</failure></testcase><testcase name="get_user_2" classname="get_user_2" time="0.076116702"><failure message="assertion failed">thread &apos;get_user_2&apos; panicked at tests/contract_testing_logic/mod.rs:155:9:
-assertion `left == right` failed
-  left: 404
- right: 200
-</failure></testcase><testcase name="get_user_4" classname="get_user_4" time="0.040735762"><failure message="assertion failed">thread &apos;get_user_4&apos; panicked at tests/contract_testing_logic/mod.rs:155:9:
-assertion `left == right` failed
-  left: 404
- right: 200
 </failure></testcase>
 </testsuite>
